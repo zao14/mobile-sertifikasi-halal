@@ -24,6 +24,9 @@
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
 
     nav {
@@ -31,17 +34,17 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
-      padding: 10px 20px;
+      padding: 15px 20px;
     }
 
     .logo {
-      width: 80px;
+      width: 70px;
     }
 
     nav ul {
       display: flex;
       flex-wrap: wrap;
-      gap: 15px;
+      gap: 10px;
     }
 
     nav ul li {
@@ -60,13 +63,41 @@
       border-bottom: 2px solid #927546;
     }
 
+    .content {
+      text-align: center;
+      padding: 40px 20px;
+      color: white;
+    }
+
+    .content h2 {
+      font-size: 28px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .content h2 span {
+      color: #927546;
+    }
+
+    .content p {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .btns {
+      margin-top: 30px;
+    }
+
     .know-more-btn {
-      padding: 8px 16px;
+      padding: 10px 20px;
       border: 2px solid #fff;
       background: transparent;
       border-radius: 1rem;
       color: #fff;
-      font-size: 13px;
+      font-size: 14px;
+      margin-right: 10px;
+      font-weight: bold;
     }
 
     .know-more-btn:hover {
@@ -75,35 +106,12 @@
       color: #fff;
     }
 
-    .content {
-      text-align: left;
-      padding: 60px 20px;
-    }
-
-    h2 {
-      color: #fff;
-      font-size: 32px;
-      font-weight: 800;
-      text-transform: uppercase;
-    }
-
-    h2 span {
-      color: #927546;
-    }
-
-    p {
-      margin-top: 10px;
-      font-size: 13px;
-      color: #fff;
-      max-width: 90%;
-    }
-
     .bawah-tengah {
       position: fixed;
       bottom: 5px;
       left: 50%;
       transform: translateX(-50%);
-      width: 100px;
+      width: 80px;
       opacity: 0.9;
       z-index: 999;
     }
@@ -118,26 +126,24 @@
       nav ul {
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
         margin-top: 10px;
       }
 
-      nav ul li a {
-        font-size: 16px;
-        padding: 6px 10px;
+      .content h2 {
+        font-size: 22px;
       }
 
-      .content {
-        padding: 40px 15px;
+      .content p {
+        font-size: 13px;
       }
 
-      h2 {
-        font-size: 24px;
+      .logo {
+        width: 60px;
       }
 
       .bawah-tengah {
-        width: 90px;
-        bottom: 5px;
+        width: 70px;
       }
     }
   </style>
@@ -148,24 +154,25 @@
       <img src="Sertifikat-Halal-.jpg" class="logo" alt="Logo Halal">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="About.html">About</a></li>
-        <li><a href="Certification Services.html">Services</a></li>
-        <li><a href="Menu.html">Menu</a></li>
-        <li><a href="Blogs.html">Blogs</a></li>
-        <li><a href="Faq.html">FAQ</a></li>
-        <li><a href="Contact.html">CONTACT</a></li>
-        <li><a href="Konsultasi.html">KONSULTASI</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="certification-services.html">Services</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="konsultasi.html">Konsultasi</a></li>
       </ul>
     </nav>
 
     <div class="content">
-     
-      <p>
-      <br>
       
+      </p>
+      <div class="btns">
+      
+      </div>
     </div>
 
-    <img src="Foto Diela.jpeg" alt="Logo Halal Bawah" class="bawah-tengah">
+    <img src="Foto Diela.jpeg" alt="Logo Bawah" class="bawah-tengah">
   </div>
 </body>
 </html>
