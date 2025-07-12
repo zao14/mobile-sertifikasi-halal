@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sertifikasi Halal</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      list-style: none;
+      font-family: sans-serif;
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+
+    .hero {
+      min-height: 100vh;
+      background: url(Sertifikat-Halal-.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+     
+    }
+
+    .logo {
+      width: 80px;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    nav ul li a {
+      font-size: 14px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    nav ul li a:hover {
+      color: #927546;
+      border-bottom: 2px solid #927546;
+    }
+
+    .know-more-btn {
+      padding: 8px 16px;
+      border: 2px solid #fff;
+      background: transparent;
+      border-radius: 1rem;
+      color: #fff;
+      font-size: 13px;
+    }
+
+    .know-more-btn:hover {
+      background: #927546;
+      border: none;
+      color: #fff;
+    }
+
+    .content {
+      text-align: left;
+      padding: 60px 20px;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 32px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    h2 span {
+      color: #927546;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #fff;
+      max-width: 90%;
+    }
+
+    /* Gambar bawah tengah */
+    .bawah-tengah {
+      position: fixed;
+      bottom: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      opacity: 0.9;
+      z-index: 999;
+    }
+
+    /* Responsive untuk layar kecil */
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .content {
+        padding: 40px 15px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      .bawah-tengah {
+        width: 90px;
+        bottom: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <nav>
+      <img src="Sertifikat-Halal-.jpg" class="logo">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Certification Services.html">Certification services</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="Blogs.html">Blogs</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+        <li><a href="Faq.html">FAQ</a></li>
+        <li><a href="Konsultasi.html">Konsultasi</a></li>
+      </ul>
+      <a href="About.html" class="know-more-btn">Know More</a>
+    </nav>
+
+    <div class="content">
+      
+      <p></p>
+    </div>
+  </div>
+
+  <!-- Gambar bawah tengah -->
+  <img src="Foto Diela.jpeg" alt="Logo Halal" class="bawah-tengah">
+</body>
+</html>

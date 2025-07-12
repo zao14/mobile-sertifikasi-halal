@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu - Sertifikasi Halal</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      list-style: none;
+      font-family: sans-serif;
+    }
+
+    body {
+      background: url(anggur.jpg);
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 20px;
+    
+    }
+
+    .logo {
+      width: 100px;
+    }
+
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    nav ul li a:hover {
+      color: #fff;
+      border-bottom: 2px solid #fff;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #fff;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .menu-item {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: #fdf8f1;
+      text-align: center;
+    }
+
+    .menu-item img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .menu-item h3 {
+      margin: 10px 0 5px;
+      font-size: 16px;
+      color: #927546;
+    }
+
+    .menu-item p {
+      font-size: 13px;
+      color: #444;
+      padding: 0 10px 15px;
+    }
+
+    /* Gambar bawah tengah */
+    .bawah-tengah {
+      position: fixed;
+      bottom: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      opacity: 0.9;
+      z-index: 999;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+
+      .bawah-tengah {
+        width: 80px;
+        bottom: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <img src="Sertifikat-Halal-.jpg" class="logo" alt="Logo Halal">
+    <ul>
+  
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Menu Makanan Halal</h1>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="roti.jpg" alt="Roti">
+        <h3>Roti</h3>
+        <p>Roti empuk dan halal, cocok untuk sarapan atau camilan sehat.</p>
+      </div>
+      <div class="menu-item">
+        <img src="rujak.jpg" alt="Rujak">
+        <h3>Rujak</h3>
+        <p>Rujak buah segar dengan bumbu kacang khas Indonesia.</p>
+      </div>
+      <div class="menu-item">
+        <img src="keripik.jpg" alt="Kripik">
+        <h3>Kripik</h3>
+        <p>Aneka kripik renyah seperti singkong, pisang, dan tempe.</p>
+      </div>
+      <div class="menu-item">
+        <img src="kue.jpg" alt="Kue Basah">
+        <h3>Kue Basah</h3>
+        <p>Kue tradisional lembut seperti lapis, klepon, dan nagasari.</p>
+      </div>
+      <div class="menu-item">
+        <img src="gorengan.jpg" alt="Gorengan">
+        <h3>Gorengan</h3>
+        <p>Gorengan panas seperti bakwan, tahu isi, dan risol isi ayam.</p>
+      </div>
+    </div>
+  </div>
+
+ 
+
+</body>
+</html>
