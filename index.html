@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sertifikasi Halal</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sertifikat Halal</title>
   <style>
     * {
       margin: 0;
@@ -32,7 +32,6 @@
       align-items: center;
       justify-content: space-between;
       padding: 10px 20px;
-     
     }
 
     .logo {
@@ -45,10 +44,15 @@
       gap: 15px;
     }
 
+    nav ul li {
+      list-style: none;
+    }
+
     nav ul li a {
       font-size: 14px;
       color: #fff;
       text-transform: uppercase;
+      font-weight: bold;
     }
 
     nav ul li a:hover {
@@ -94,7 +98,6 @@
       max-width: 90%;
     }
 
-    /* Gambar bawah tengah */
     .bawah-tengah {
       position: fixed;
       bottom: 5px;
@@ -105,16 +108,23 @@
       z-index: 999;
     }
 
-    /* Responsive untuk layar kecil */
     @media (max-width: 600px) {
-      nav ul {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
       nav {
         flex-direction: column;
+        align-items: center;
         gap: 10px;
+      }
+
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      nav ul li a {
+        font-size: 16px;
+        padding: 6px 10px;
       }
 
       .content {
@@ -135,27 +145,27 @@
 <body>
   <div class="hero">
     <nav>
-      <img src="Sertifikat-Halal-.jpg" class="logo">
+      <img src="Sertifikat-Halal-.jpg" class="logo" alt="Logo Halal">
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="About.html">About</a></li>
-        <li><a href="Certification Services.html">Certification services</a></li>
+        <li><a href="Certification Services.html">Services</a></li>
         <li><a href="Menu.html">Menu</a></li>
         <li><a href="Blogs.html">Blogs</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-        <li><a href="Faq.html">FAQ</a></li>
-        <li><a href="Konsultasi.html">Konsultasi</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="konsultasi.html">Konsultasi</a></li>
       </ul>
-      <a href="About.html" class="know-more-btn">Know More</a>
     </nav>
 
     <div class="content">
+     
+      <p>
+      <br>
       
-      <p></p>
     </div>
-  </div>
 
-  <!-- Gambar bawah tengah -->
-  <img src="Foto Diela.jpeg" alt="Logo Halal" class="bawah-tengah">
+    <img src="Foto Diela.jpeg" alt="Logo Halal Bawah" class="bawah-tengah">
+  </div>
 </body>
 </html>
